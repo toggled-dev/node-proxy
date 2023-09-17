@@ -1,0 +1,12 @@
+{
+  "server": {
+    "port": 9100,
+    "protocol": "https",
+    "ssl": {
+      "private-key": "certs/server-key.pem",
+      "cert": "certs/server-cert.pem"
+    }
+  },
+  "toggled-endpoint": "dev-api.lab.toggled.dev",
+  "verbose": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "toggled-proxy",
+  "version": "1.0.0",
+  "description": "A simple Node.js proxy for Toggled.dev clients",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier src --write --log-level warn",
+    "lint": "eslint src --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "jest": "^29.7.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "3.0.3"
+  }
+}
