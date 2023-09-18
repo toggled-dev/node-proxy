@@ -7,6 +7,6 @@
       "cert": "certs/localhost.cert"
     }
   },
-  "toggled-endpoint": "dev-api.lab.toggled.dev",
+  "toggled-endpoint": "ap-south-1-api.saas.toggled.dev",
   "verbose": true
 }
