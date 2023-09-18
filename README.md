@@ -1,10 +1,12 @@
-# node-proxy
+# Toggled.dev / node-proxy
 
 [Toggled](https://www.toggled.dev) is a solid, scalable and multi-regional feature toggles management platform.
 
 The [JavaScript client](https://github.com/toggled-dev/toggled-client-js) is a tiny Toggled client written in JavaScript without any external dependencies (except from browser APIs). This client stores toggles relevant for the current user in `localStorage` and synchronizes with Toggled (see [Integrate Toggled in your app](https://docs.saas.toggled.dev/docs/getting-started/integrate-toggled)) in the background. 
 
-Usually, the client connects directly to the Toggled client endpoint, but if you have reasons to proxy client requests and forward them, this is a very simple Node proxy server to run in your environment.
+By default, the client connects directly to the Toggled client endpoint. 
+
+However, ***if you need to proxy client requests and forward them, this is a very simple Node proxy server*** that you can run in your environment.
 
 ## Quick start
 
